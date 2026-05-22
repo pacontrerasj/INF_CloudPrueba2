@@ -1,0 +1,7 @@
+# Terraform - archivos que NO deben subirse a Git
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+crash.log
+*.tfplan
